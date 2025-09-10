@@ -1,19 +1,18 @@
 {
-  "family_name": "aCode",
+  "family_name": "Code",
   "use_hinted": true,
   "pool_size": 4,
-  "enable_ligature": false,
+  "enable_ligature": true,
   "ttfautohint_param": {},
   "weight_mapping": {
     "thin": 100,
     "extralight": 200,
     "light": 300,
     "regular": 400,
-    "medium": 500,
-    "semibold": 600,
+    "semibold": 500,
+    "medium": 600,
     "bold": 700,
-    "extrabold": 800,
-    "black": 900
+    "extrabold": 800
   },
   "feature_freeze": {
     "cv01": "enable",
@@ -48,10 +47,10 @@
     "cv97": "ignore",
     "cv98": "ignore",
     "cv99": "ignore",
-    "ss01": "enable",
-    "ss02": "enable",
+    "ss01": "ignore",
+    "ss02": "ignore",
     "ss03": "ignore",
-    "ss04": "enable",
+    "ss04": "ignore",
     "ss05": "ignore",
     "ss06": "ignore",
     "ss07": "ignore",
@@ -64,7 +63,7 @@
   "nerd_font": {
     "enable": true,
     "version": "3.4.0",
-    "mono": true,
+    "mono": false,
     "propo": false,
     "use_font_patcher": false,
     "glyphs": [
